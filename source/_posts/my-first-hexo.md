@@ -65,7 +65,10 @@ hexo d
 根据介绍选择git安装
 
 ```git
-$ git clone https://github.com/iissnan/hexo-theme-next themes/next
+// $ git clone https://github.com/iissnan/hexo-theme-next themes/next
+修改为下面添加成子项目
+$ git submodule add https://github.com/iissnan/hexo-theme-next themes/next
+
 ```
 
 然后在 _config.yml 中修改配置
